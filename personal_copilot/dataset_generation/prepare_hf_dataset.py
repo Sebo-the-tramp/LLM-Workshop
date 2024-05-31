@@ -16,7 +16,7 @@
 import pandas as pd
 from datasets import Dataset
 
-DATAFOLDER = "/Users/sebastiancavada/Documents/scsv/internship/internship_CVI2/finetuning/representations/token/data"
+DATAFOLDER = "../../../finetuning/representations/token/data"
 HF_DATASET_NAME = "sebothetramp/sketch_token_small"
 
 def create_hf_dataset():
